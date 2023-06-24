@@ -1,0 +1,114 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+/* ROOT */
+
+:root {
+    --font: 'Walter Turncoat', cursive;
+    --title-font-size: 2.3rem;
+    --subtitle-font-size: 1.8rem;
+    --paragraph-font-size: 1.3rem;
+    --font-size-smaller: 0.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-name {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 21.1px;
+}
+
+.uk-usa-flag {
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.how-you-doing {
+    width: 120px;
+    margin: 0 37px 0 0px;
+}
+
+.me-computer {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: var(--font);
+    font-size: var(--paragraph-font-size);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container-white {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 3px;
+}
+
+.container-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.container-icons-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    width: 100px;
+}
+
+.container-contato {
+    display: flex;
+    gap: 10px;
+}
+
+.icons-size-contatos {
+    width: 30px;
+}
+
+@media (max-width: 600px) {
+
+    .container-icons {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 80px 0 80px;
+    }
+}
