@@ -125,6 +125,10 @@ p {
     height: 118px;
 }
 
+.container-preco {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
 
 @media (max-width: 600px) {
 
