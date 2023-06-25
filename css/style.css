@@ -78,34 +78,35 @@ p {
     box-shadow: 0 0 3px;
 }
 
-.container-icons {
+.container-icon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
 }
 
-.container-icons-align {
+.container-icon-size {
+    width: 100px;
+}
+
+.container-icon-align {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.icons {
-    width: 100px;
-}
-
-.container-contato {
+.icon-align {
     display: flex;
-    gap: 10px;
+    gap: 10px
 }
 
-.icons-size-contatos {
+.icon-size {
     width: 30px;
 }
 
+
 @media (max-width: 600px) {
 
-    .container-icons {
+    .container-icon {
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
