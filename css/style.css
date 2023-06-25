@@ -22,10 +22,11 @@
 body {
     max-width: 800px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-main {
-    padding: 10px;
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -55,6 +56,16 @@ main {
 .me-computer {
     width: 250px;
     margin-bottom: 20px;
+}
+
+h1 {
+    font-family: var(--font);
+    font-size: var(--title-font-size);
+}
+    
+h2 {
+    font-family: var(--font);
+    font-size: var(--subtitle-font-size);
 }
 
 p {
@@ -101,6 +112,17 @@ p {
 
 .icon-size {
     width: 30px;
+}
+
+.sobre-align {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px
+}
+
+.sobre-tam {
+    width: 110px;
+    height: 110px;
 }
 
 
