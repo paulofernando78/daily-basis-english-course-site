@@ -125,9 +125,18 @@ p {
     height: 118px;
 }
 
-.container-preco {
+.container-price {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
+}
+
+.price-font-smaller {
+    font-size: 2rem ;
+}
+
+.seta-vermelha {
+    color: red;
+    font-weight: bold;
 }
 
 @media (max-width: 600px) {
