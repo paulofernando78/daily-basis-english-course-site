@@ -91,12 +91,18 @@ p {
 
 .container-icon {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 10px;
 }
 
 .container-icon-size {
-    width: 100px;
+    width: 80px;
+}
+
+.container-classroom-size {
+    width: 76.5px;
+    margin: 7px 0 5px 0
 }
 
 .container-icon-align {
